@@ -58,18 +58,7 @@ Thumbs.db
 .vscode/
 .idea/
 
-cat >> .gitignore <<'EOF'
-
-# Local environment
-.env.local
-.env.*.local
-
-# Next.js generated files
-.next/
-tsconfig.tsbuildinfo
-
-# Generated cache and results
-data/cache/
-data/cache/pages/
-data/results/
-EOF
+# Runtime data with personal information (never commit)
+data/receipts/
+env
+data/seed/*.db-journal
